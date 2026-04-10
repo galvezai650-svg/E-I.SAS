@@ -40,10 +40,10 @@ export function Footer() {
   return (
     <footer className="relative bg-[#0a1628] text-white">
       {/* Decorative top border */}
-      <div className="h-1 bg-gradient-to-r from-transparent via-emerald-500 to-transparent" />
+      <div className="h-1 bg-gradient-to-r from-transparent via-brand to-transparent" />
 
       {/* CTA Bar */}
-      <div className="bg-gradient-to-r from-emerald-700 to-emerald-600">
+      <div className="bg-gradient-to-r from-brand-dark to-brand">
         <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <h3 className="text-xl md:text-2xl font-bold text-white">
@@ -55,7 +55,7 @@ export function Footer() {
           </div>
           <Link
             href="/contacto"
-            className="flex items-center gap-2 bg-white text-emerald-700 px-6 py-3 rounded-full font-semibold text-sm hover:bg-white/90 transition-all duration-300 shadow-lg hover:scale-105"
+            className="flex items-center gap-2 bg-white text-brand-dark px-6 py-3 rounded-full font-semibold text-sm hover:bg-white/90 transition-all duration-300 shadow-lg hover:scale-105"
           >
             Solicitar Cotización
             <ArrowRight className="w-4 h-4" />
@@ -69,7 +69,7 @@ export function Footer() {
           {/* Column 1: Logo & Description */}
           <div>
             <div className="mb-6">
-              <div className="relative inline-block rounded-xl overflow-hidden border border-emerald-500/30 p-1.5 bg-white/5">
+              <div className="relative inline-block rounded-xl overflow-hidden border border-brand/30 p-1.5 bg-white/5">
                 <Image
                   src="https://image2url.com/r2/default/images/1775538911351-67dd05af-32d8-464a-beda-760be55cc259.png"
                   alt="Edificando Ingenieros S.A.S."
@@ -91,7 +91,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.label}
-                  className="w-10 h-10 rounded-xl bg-white/5 hover:bg-emerald-500/20 border border-white/10 hover:border-emerald-500/30 flex items-center justify-center text-white/60 hover:text-emerald-400 transition-all duration-300 hover:scale-110"
+                  className="w-10 h-10 rounded-xl bg-white/5 hover:bg-brand/20 border border-white/10 hover:border-brand/30 flex items-center justify-center text-white/60 hover:text-brand-light transition-all duration-300 hover:scale-110"
                 >
                   <social.icon className="w-4 h-4" />
                 </a>
@@ -102,7 +102,7 @@ export function Footer() {
           {/* Column 2: Quick Links */}
           <div>
             <h4 className="text-white font-semibold text-sm mb-6 flex items-center gap-2">
-              <span className="w-8 h-0.5 bg-emerald-500 rounded-full" />
+              <span className="w-8 h-0.5 bg-brand rounded-full" />
               Enlaces Rápidos
             </h4>
             <ul className="space-y-3">
@@ -110,7 +110,7 @@ export function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/60 hover:text-emerald-400 text-sm transition-colors duration-300 flex items-center gap-2 group"
+                    className="text-white/60 hover:text-brand-light text-sm transition-colors duration-300 flex items-center gap-2 group"
                   >
                     <ArrowRight className="w-3 h-3 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300" />
                     {link.label}
@@ -123,7 +123,7 @@ export function Footer() {
           {/* Column 3: Services */}
           <div>
             <h4 className="text-white font-semibold text-sm mb-6 flex items-center gap-2">
-              <span className="w-8 h-0.5 bg-emerald-500 rounded-full" />
+              <span className="w-8 h-0.5 bg-brand rounded-full" />
               Servicios
             </h4>
             <ul className="space-y-3">
@@ -131,7 +131,7 @@ export function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/60 hover:text-emerald-400 text-sm transition-colors duration-300 flex items-center gap-2 group"
+                    className="text-white/60 hover:text-brand-light text-sm transition-colors duration-300 flex items-center gap-2 group"
                   >
                     <ArrowRight className="w-3 h-3 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300" />
                     {link.label}
@@ -144,7 +144,7 @@ export function Footer() {
           {/* Column 4: Contact Info */}
           <div>
             <h4 className="text-white font-semibold text-sm mb-6 flex items-center gap-2">
-              <span className="w-8 h-0.5 bg-emerald-500 rounded-full" />
+              <span className="w-8 h-0.5 bg-brand rounded-full" />
               Contacto
             </h4>
             <div className="space-y-4">
@@ -153,34 +153,34 @@ export function Footer() {
                   href="https://maps.google.com/?q=Chinchina+Caldas+Colombia"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-3 text-white/60 hover:text-emerald-400 text-sm transition-colors duration-300"
+                  className="flex items-start gap-3 text-white/60 hover:text-brand-light text-sm transition-colors duration-300"
                 >
-                  <MapPin className="w-4 h-4 mt-0.5 text-emerald-500 flex-shrink-0" />
+                  <MapPin className="w-4 h-4 mt-0.5 text-brand flex-shrink-0" />
                   <span>Cra 9 #14-20</span>
                 </a>
               </div>
               <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/[0.06]">
                 <a
                   href="tel:+573108870044"
-                  className="flex items-center gap-3 text-white/60 hover:text-emerald-400 text-sm transition-colors duration-300"
+                  className="flex items-center gap-3 text-white/60 hover:text-brand-light text-sm transition-colors duration-300"
                 >
-                  <Phone className="w-4 h-4 text-emerald-500 flex-shrink-0" />
+                  <Phone className="w-4 h-4 text-brand flex-shrink-0" />
                   <span>310 887 0044</span>
                 </a>
               </div>
               <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/[0.06]">
                 <a
                   href="mailto:contacto@edificandoingenierossas.com"
-                  className="flex items-center gap-3 text-white/60 hover:text-emerald-400 text-sm transition-colors duration-300"
+                  className="flex items-center gap-3 text-white/60 hover:text-brand-light text-sm transition-colors duration-300"
                 >
-                  <Mail className="w-4 h-4 text-emerald-500 flex-shrink-0" />
+                  <Mail className="w-4 h-4 text-brand flex-shrink-0" />
                   <span>contacto@edificandoingenierossas.com</span>
                 </a>
               </div>
               <div className="p-3 rounded-2xl bg-white/[0.03] border border-white/[0.06]">
                 <div className="flex items-center gap-3 text-white/60 text-sm">
-                  <div className="w-4 h-4 rounded-full bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-emerald-500" />
+                  <div className="w-4 h-4 rounded-full bg-brand/20 flex items-center justify-center flex-shrink-0">
+                    <div className="w-2 h-2 rounded-full bg-brand" />
                   </div>
                   <span>Lunes a viernes: 8:00 a. m. - 6:00 p. m.</span>
                 </div>
@@ -197,8 +197,8 @@ export function Footer() {
             © {new Date().getFullYear()} Edificando Ingenieros. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-6 text-white/40 text-xs">
-            <a href="#" className="hover:text-emerald-400 transition-colors duration-300">Política de Privacidad</a>
-            <a href="#" className="hover:text-emerald-400 transition-colors duration-300">Términos de Uso</a>
+            <a href="#" className="hover:text-brand-light transition-colors duration-300">Política de Privacidad</a>
+            <a href="#" className="hover:text-brand-light transition-colors duration-300">Términos de Uso</a>
           </div>
         </div>
       </div>
@@ -246,7 +246,7 @@ export function ScrollToTopButton() {
       {visible && (
         <motion.button
           onClick={scrollToTop}
-          className="fixed bottom-6 left-6 z-50 w-12 h-12 bg-gradient-to-br from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 rounded-full flex items-center justify-center shadow-2xl shadow-emerald-600/30 transition-all duration-300"
+          className="fixed bottom-6 left-6 z-50 w-12 h-12 bg-gradient-to-br from-brand to-brand-dark hover:from-brand-dark hover:to-brand-700 rounded-full flex items-center justify-center shadow-2xl shadow-brand/30 transition-all duration-300"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0, opacity: 0 }}

@@ -39,14 +39,14 @@ export function Navigation() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-[#060e1a] text-white/80 text-xs hidden md:block border-b border-white/5">
+      <div className="bg-brand-dark text-white/80 text-xs hidden md:block border-b border-brand/20">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center gap-6">
-            <a href="tel:+573108870044" className="flex items-center gap-1.5 hover:text-emerald-400 transition-colors duration-300">
+            <a href="tel:+573108870044" className="flex items-center gap-1.5 hover:text-brand-light transition-colors duration-300">
               <Phone className="w-3 h-3" />
               <span>310 887 0044</span>
             </a>
-            <a href="mailto:contacto@edificandoingenierossas.com" className="flex items-center gap-1.5 hover:text-emerald-400 transition-colors duration-300">
+            <a href="mailto:contacto@edificandoingenierossas.com" className="flex items-center gap-1.5 hover:text-brand-light transition-colors duration-300">
               <Mail className="w-3 h-3" />
               <span>contacto@edificandoingenierossas.com</span>
             </a>
@@ -66,7 +66,7 @@ export function Navigation() {
 
       {/* Main Nav */}
       <motion.nav
-        className={`sticky top-0 z-50 transition-all duration-500 bg-[#0a1628] border-b border-emerald-500/10${
+        className={`sticky top-0 z-50 transition-all duration-500 bg-[#0a1628] border-b border-brand/10${
           scrolled
             ? '/95 backdrop-blur-xl shadow-2xl shadow-black/20'
             : ''
@@ -119,19 +119,19 @@ export function Navigation() {
                     {isActive(link.href) && (
                       <motion.span
                         layoutId="activeNav"
-                        className="absolute inset-0 bg-emerald-600 rounded-full z-0"
+                        className="absolute inset-0 bg-brand rounded-full z-0"
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
                     <span className={`relative z-10 transition-colors duration-300 ${
                       link.highlight
-                        ? isActive(link.href) ? 'text-white' : 'text-emerald-400'
+                        ? isActive(link.href) ? 'text-white' : 'text-brand-light'
                         : isActive(link.href) ? 'text-white' : 'text-white/80 hover:text-white'
                     }`}>
                       {link.label}
                     </span>
                     {link.highlight && !isActive(link.href) && (
-                      <span className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-emerald-500 rounded-full animate-pulse z-10" />
+                      <span className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-brand-light rounded-full animate-pulse z-10" />
                     )}
                   </Link>
                 ))}
@@ -142,14 +142,14 @@ export function Navigation() {
             <div className="flex items-center gap-3">
               <Link
                 href="/favoritos"
-                className="relative p-2 text-white/70 hover:text-emerald-400 transition-colors duration-300"
+                className="relative p-2 text-white/70 hover:text-brand-light transition-colors duration-300"
               >
                 <Bookmark className="w-5 h-5" />
               </Link>
 
               <Link
                 href="/contacto"
-                className="hidden sm:flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-4 md:px-5 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/40 hover:scale-105"
+                className="hidden sm:flex items-center gap-2 bg-gradient-to-r from-brand to-brand-dark hover:from-brand-dark hover:to-brand-700 text-white px-4 md:px-5 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 shadow-lg shadow-brand/25 hover:shadow-brand/40 hover:scale-105"
               >
                 Cotizar
                 <ChevronRight className="w-4 h-4" />
@@ -212,16 +212,16 @@ export function Navigation() {
                       href={link.href}
                       className={`flex items-center justify-between px-4 py-3 rounded-2xl text-sm font-medium transition-all duration-300 ${
                         isActive(link.href)
-                          ? 'text-white bg-emerald-600'
+                          ? 'text-white bg-brand'
                           : link.highlight
-                            ? 'text-emerald-400 bg-emerald-500/10'
+                            ? 'text-brand-light bg-brand/10'
                             : 'text-white/80 hover:text-white hover:bg-white/5'
                       }`}
                     >
                       <span className="flex items-center gap-2">
                         {link.label}
                         {link.highlight && !isActive(link.href) && (
-                          <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+                          <span className="w-2 h-2 bg-brand-light rounded-full animate-pulse" />
                         )}
                       </span>
                       <ChevronRight className="w-4 h-4 opacity-50" />
@@ -231,7 +231,7 @@ export function Navigation() {
                 <div className="pt-3 border-t border-white/10">
                   <Link
                     href="/contacto"
-                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white px-4 py-3 rounded-2xl text-sm font-semibold transition-all duration-300"
+                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-brand to-brand-dark text-white px-4 py-3 rounded-2xl text-sm font-semibold transition-all duration-300"
                   >
                     Cotizar Ahora
                     <ChevronRight className="w-4 h-4" />
