@@ -58,7 +58,7 @@ export const companyInfo = {
   address: 'Cra 9 #14-20',
   city: 'Chinchiná, Caldas',
   region: 'Eje Cafetero Colombiano',
-  founded: 2013,
+  founded: 2016,
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -1890,7 +1890,7 @@ export const projects: Project[] = [
 // ═══════════════════════════════════════════════════════════
 export const portfolioSummary = {
   totalProjects: 110,
-  period: '2013 - 2024',
+  period: '2016 - 2024',
   departments: [
     { name: 'Caldas', municipalities: ['Manizales', 'Villamaría', 'Chinchiná', 'Palestina', 'Cartama/Aranzazu'] },
     { name: 'Risaralda', municipalities: ['Pereira'] },
@@ -2316,7 +2316,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Construcción en el Eje Cafetero: Trayectoria y Compromiso',
     slug: 'construccion-eje-cafetero-experiencia-compromiso',
     excerpt: 'Nuestra trayectoria en el Eje Cafetero: más de ciento diez proyectos ejecutados en obras de infraestructura pública y privada.',
-    content: 'Edificando Ingenieros S.A.S. ha consolidado una presencia destacada en el Eje Cafetero colombiano con más de ciento diez proyectos ejecutados entre 2013 y 2024, abarcando pavimentos, estructuras, acueductos, estabilización de taludes y obras comunitarias. Es menester señalar que cada obra refleja nuestro compromiso inquebrantable con la excelencia técnica y el desarrollo regional.\n\n## Presencia en Caldas\n\nNuestra labor se concentra principalmente en el departamento de Caldas, con proyectos en Manizales, Chinchiná, Villamaría, Palestina y Aranzazu. Asimismo, hemos extendido nuestra presencia a Pereira, en Risaralda, así como a otros departamentos del centro y suroccidente colombiano.\n\n## Sector Público y Privado\n\nDesarrollamos proyectos tanto con el sector público (entidades municipales, empresas de servicios públicos como Aquamaná E.S.P.) como con el sector privado (condominios, propietarios privados y entidades corporativas), lo cual evidencia nuestra versatilidad y capacidad técnica. Tenemos el agrado de informar que la totalidad de nuestros contratos se han ejecutado con cabal cumplimiento de las obligaciones contraídas.',
+    content: 'Edificando Ingenieros S.A.S. ha consolidado una presencia destacada en el Eje Cafetero colombiano con más de ciento diez proyectos ejecutados entre 2016 y 2024, abarcando pavimentos, estructuras, acueductos, estabilización de taludes y obras comunitarias. Es menester señalar que cada obra refleja nuestro compromiso inquebrantable con la excelencia técnica y el desarrollo regional.\n\n## Presencia en Caldas\n\nNuestra labor se concentra principalmente en el departamento de Caldas, con proyectos en Manizales, Chinchiná, Villamaría, Palestina y Aranzazu. Asimismo, hemos extendido nuestra presencia a Pereira, en Risaralda, así como a otros departamentos del centro y suroccidente colombiano.\n\n## Sector Público y Privado\n\nDesarrollamos proyectos tanto con el sector público (entidades municipales, empresas de servicios públicos como Aquamaná E.S.P.) como con el sector privado (condominios, propietarios privados y entidades corporativas), lo cual evidencia nuestra versatilidad y capacidad técnica. Tenemos el agrado de informar que la totalidad de nuestros contratos se han ejecutado con cabal cumplimiento de las obligaciones contraídas.',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=500&fit=crop',
     category: 'Eje Cafetero',
     author: 'Edificando Ingenieros',

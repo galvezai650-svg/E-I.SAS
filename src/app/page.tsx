@@ -272,7 +272,7 @@ function AboutPreview() {
             <p className="text-gray-500 leading-relaxed mb-4 text-lg">
               <strong className="text-[#0a1628]">Edificando Ingenieros</strong> es una firma colombiana 
               con más de una década de trayectoria en el ámbito de la construcción y la ingeniería civil. 
-              A la fecha, hemos ejecutado más de ciento diez proyectos entre los años 2013 y 2024.
+              A la fecha, hemos ejecutado más de ciento diez proyectos entre los años 2016 y 2024.
             </p>
             <p className="text-gray-500 leading-relaxed mb-8">
               Con presencia en Manizales, Chinchiná, Villamaría, Palestina, Aranzazu y Pereira, 

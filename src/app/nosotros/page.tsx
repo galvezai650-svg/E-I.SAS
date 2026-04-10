@@ -208,7 +208,7 @@ export default function NosotrosPage() {
                 Nuestra Historia
               </Badge>
               <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
-                Edificando el porvenir desde <span className="text-brand">2013</span>
+                Edificando el porvenir desde <span className="text-brand">2016</span>
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
