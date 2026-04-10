@@ -48,10 +48,11 @@ export interface BlogPost {
 // COMPANY INFO
 // ═══════════════════════════════════════════════════════════
 export const companyInfo = {
+  slogan: 'Fundamentando confianza, edificando calidad',
   name: 'EDIFICANDO Ingenieros S.A.S.',
   shortName: 'Edificando Ingenieros',
-  description: 'Sociedad colombiana especializada en la construcción y el diseño de obras civiles, con probada trayectoria y experiencia acreditada en los sectores público y privado del Eje Cafetero.',
-  message: 'Su proyecto reviste la mayor importancia para nuestra organización. Tenemos el agrado de brindarle el respaldo técnico y profesional necesario para materializar su visión.',
+  description: 'Empresa colombiana dedicada a la construcción y diseño de obras civiles, con amplia experiencia en el sector público y privado en el Eje Cafetero.',
+  message: 'Tu proyecto es importante para nosotros, te ayudaremos para que cumplas tu sueño',
   phone: '310 887 0044',
   email: 'contacto@edificandoingenierossas.com',
   address: 'Cra 9 #14-20',
