@@ -1,8 +1,14 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
+
+// Deterministic pseudo-random based on index to avoid hydration mismatch
+function seededRandom(seed: number) {
+  const x = Math.sin(seed * 127.1 + 311.7) * 43758.5453
+  return x - Math.floor(x)
+}
 
 export function PageLoader() {
   const [isLoading, setIsLoading] = useState(true)
@@ -40,8 +46,8 @@ export function PageLoader() {
               key={i}
               className="absolute w-1 h-1 rounded-full bg-brand/30"
               style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
+                left: `${seededRandom(i * 3) * 100}%`,
+                top: `${seededRandom(i * 3 + 1) * 100}%`,
               }}
               animate={{
                 y: [0, -40, 0],
@@ -49,9 +55,9 @@ export function PageLoader() {
                 scale: [0.5, 1.5, 0.5],
               }}
               transition={{
-                duration: 2 + Math.random() * 3,
+                duration: 2 + seededRandom(i * 3 + 2) * 3,
                 repeat: Infinity,
-                delay: Math.random() * 2,
+                delay: seededRandom(i * 3 + 3) * 2,
               }}
             />
           ))}

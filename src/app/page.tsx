@@ -88,26 +88,33 @@ function HeroSection() {
       <div className="absolute bottom-20 left-[5%] w-[400px] h-[400px] bg-brand-dark/8 rounded-full blur-[100px] animate-glow-pulse" style={{ animationDelay: '2s' }} />
       <div className="absolute top-[40%] left-[50%] w-[300px] h-[300px] bg-brand-light/5 rounded-full blur-[80px] animate-blob" />
 
-      {/* Animated particles */}
-      {[...Array(25)].map((_, i) => (
-        <motion.div
-          key={i}
-          className="absolute w-1 h-1 rounded-full bg-brand-light/40"
-          style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-          }}
-          animate={{
-            y: [0, -60, 0],
-            opacity: [0.1, 0.7, 0.1],
-          }}
-          transition={{
-            duration: 4 + Math.random() * 5,
-            repeat: Infinity,
-            delay: Math.random() * 4,
-          }}
-        />
-      ))}
+      {/* Animated particles - using deterministic values to avoid hydration mismatch */}
+      {[...Array(25)].map((_, i) => {
+        // Deterministic pseudo-random based on index
+        const rx = ((Math.sin(i * 127.1 + 311.7) * 43758.5453) % 1 + 1) % 1
+        const ry = ((Math.sin(i * 269.5 + 183.3) * 43758.5453) % 1 + 1) % 1
+        const rd = ((Math.sin(i * 419.2 + 571.9) * 43758.5453) % 1 + 1) % 1
+        const rdel = ((Math.sin(i * 631.6 + 291.1) * 43758.5453) % 1 + 1) % 1
+        return (
+          <motion.div
+            key={i}
+            className="absolute w-1 h-1 rounded-full bg-brand-light/40"
+            style={{
+              left: `${rx * 100}%`,
+              top: `${ry * 100}%`,
+            }}
+            animate={{
+              y: [0, -60, 0],
+              opacity: [0.1, 0.7, 0.1],
+            }}
+            transition={{
+              duration: 4 + rd * 5,
+              repeat: Infinity,
+              delay: rdel * 4,
+            }}
+          />
+        )
+      })}
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-32 md:py-40">
