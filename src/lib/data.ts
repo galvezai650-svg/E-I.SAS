@@ -2198,6 +2198,7 @@ export const services: Service[] = [
     benefits: ['Extensión de vida útil', 'Seguridad estructural', 'Prevención', 'Normatividad'],
     projects: 12,
     category: 'adicionales',
+    featured: true,
   },
   {
     id: 'venta-propiedades',
