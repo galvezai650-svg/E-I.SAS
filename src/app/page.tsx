@@ -777,7 +777,7 @@ function GalleryCarousel() {
     },
     {
       image: '/images/gallery-2.jpg',
-      title: 'Pavimentación en Ejecución',
+      title: 'Pavimentación',
       subtitle: 'Mejoramiento vial con tecnología avanzada',
     },
     {
