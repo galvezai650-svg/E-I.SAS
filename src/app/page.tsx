@@ -344,66 +344,81 @@ function ServicesPreview() {
           </p>
         </motion.div>
 
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, i) => {
-            const Icon = iconMap[service.icon] || FileText
-            return (
-              <motion.div
-                key={service.id}
-                className="glass-card overflow-hidden group cursor-pointer"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.35, delay: i * 0.05, ease: smoothEase }}
-              >
-                {/* Image */}
-                <div className="relative h-48 overflow-hidden">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700"
-                    style={{ backgroundImage: `url(${service.image})` }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 via-[#0a1628]/40 to-transparent" />
-                  <div className="absolute bottom-4 left-4">
-                    <div className="w-11 h-11 bg-brand/90 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
-                      <Icon className="w-5 h-5 text-white" />
-                    </div>
-                  </div>
-                  <div className="absolute top-4 right-4 px-3 py-1 bg-white/10 backdrop-blur-sm text-white text-xs rounded-full font-medium">
-                    {service.projects} obras ejecutadas
-                  </div>
-                </div>
+        {/* Services by category */}
+        {[
+          { category: 'construccion', label: '1. Servicios de Construcción' },
+          { category: 'disenos', label: '2. Servicios de Diseño y Estudios' },
+          { category: 'adicionales', label: '3. Servicios Complementarios' },
+        ].map((group) => {
+          const categoryServices = services.filter(s => s.category === group.category)
+          if (categoryServices.length === 0) return null
+          return (
+            <div key={group.category}>
+              <h3 className="text-xl md:text-2xl font-bold text-brand-light mb-5 mt-4">
+                {group.label}
+              </h3>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {categoryServices.map((service, i) => {
+                  const Icon = iconMap[service.icon] || FileText
+                  return (
+                    <motion.div
+                      key={service.id}
+                      className="glass-card overflow-hidden group cursor-pointer"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.35, delay: i * 0.05, ease: smoothEase }}
+                    >
+                      {/* Image */}
+                      <div className="relative h-48 overflow-hidden">
+                        <div
+                          className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700"
+                          style={{ backgroundImage: `url(${service.image})` }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 via-[#0a1628]/40 to-transparent" />
+                        <div className="absolute bottom-4 left-4">
+                          <div className="w-11 h-11 bg-brand/90 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-lg">
+                            <Icon className="w-5 h-5 text-white" />
+                          </div>
+                        </div>
+                        <div className="absolute top-4 right-4 px-3 py-1 bg-white/10 backdrop-blur-sm text-white text-xs rounded-full font-medium">
+                          {service.projects} obras ejecutadas
+                        </div>
+                      </div>
 
-                {/* Content */}
-                <div className="p-5">
-                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-brand-light transition-colors duration-300">
-                    {service.title}
-                  </h3>
-                  <p className="text-white/50 text-sm leading-relaxed mb-4 line-clamp-2">
-                    {service.description}
-                  </p>
+                      {/* Content */}
+                      <div className="p-5">
+                        <h4 className="text-lg font-bold text-white mb-2 group-hover:text-brand-light transition-colors duration-300">
+                          {service.title}
+                        </h4>
+                        <p className="text-white/50 text-sm leading-relaxed mb-4 line-clamp-2">
+                          {service.description}
+                        </p>
 
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {service.features.slice(0, 3).map((f) => (
-                      <span
-                        key={f}
-                        className="px-2.5 py-1 bg-white/5 text-white/50 text-[10px] rounded-lg font-medium border border-white/5"
-                      >
-                        {f}
-                      </span>
-                    ))}
-                    {service.features.length > 3 && (
-                      <span className="px-2.5 py-1 bg-brand/10 text-brand-light text-[10px] rounded-lg font-medium">
-                        +{service.features.length - 3} adicionales
-                      </span>
-                    )}
-                  </div>
-                </div>
-              </motion.div>
-            )
-          })}
-        </div>
+                        {/* Tags */}
+                        <div className="flex flex-wrap gap-2 mb-4">
+                          {service.features.slice(0, 3).map((f) => (
+                            <span
+                              key={f}
+                              className="px-2.5 py-1 bg-white/5 text-white/50 text-[10px] rounded-lg font-medium border border-white/5"
+                            >
+                              {f}
+                            </span>
+                          ))}
+                          {service.features.length > 3 && (
+                            <span className="px-2.5 py-1 bg-brand/10 text-brand-light text-[10px] rounded-lg font-medium">
+                              +{service.features.length - 3} adicionales
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </motion.div>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })}
 
         {/* CTA */}
         <motion.div
