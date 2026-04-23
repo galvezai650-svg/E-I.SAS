@@ -2085,6 +2085,7 @@ export const services: Service[] = [
     benefits: ['Seguridad vial', 'Normatividad INVIAS', 'Fluidez vehicular', 'Diseño integral'],
     projects: 110,
     category: 'disenos',
+    featured: true,
   },
   {
     id: 'diseno-redes-hidrosanitarias',
@@ -2097,6 +2098,7 @@ export const services: Service[] = [
     benefits: ['Eficiencia hidráulica', 'Normatividad RAS', 'Sostenibilidad', 'Impacto social'],
     projects: 20,
     category: 'disenos',
+    featured: true,
   },
   {
     id: 'disenos-arquitectonicos',
