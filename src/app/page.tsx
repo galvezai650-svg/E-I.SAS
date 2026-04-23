@@ -277,9 +277,9 @@ function AboutPreview() {
               <span className="text-brand">Forjando Futuro</span>
             </h2>
             <p className="text-gray-500 leading-relaxed mb-8">
-              A la fecha y desde nuestra creación en el año 2016, contamos con más de 110 grandes proyectos ejecutados 
-              en diferentes municipios como Villamaría, Palestina y Aránzazu, además de ciudades capitales como Manizales y Pereira. 
-              Es de resaltar nuestra continúas prácticas en búsqueda de resultados de excelencia.
+              A la fecha y desde nuestra creación en el año 2016, contamos con más de 110 grandes proyectos ejecutados en diferentes municipios 
+              del Eje Cafetero, siendo nuestros principales focos de mercado las ciudades de Manizales y Pereira. 
+              Son de resaltar nuestras continúas prácticas en búsqueda de resultados de excelencia.
             </p>
 
             {/* Feature pills */}
