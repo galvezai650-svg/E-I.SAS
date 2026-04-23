@@ -464,7 +464,7 @@ function ProjectsPreview() {
             Proyectos que <span className="text-brand">Transforman Territorios</span>
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg">
-            Le invitamos a conocer una selección de proyectos que dan cuenta de nuestro compromiso inquebrantable con la excelencia.
+            Le invitamos a conocer una selección de nuestros proyectos
           </p>
         </motion.div>
 
