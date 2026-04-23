@@ -773,7 +773,7 @@ function GalleryCarousel() {
     {
       image: '/images/gallery-1.jpg',
       title: 'Vista Panorámica del Proyecto',
-      subtitle: 'Infraestructura residencial en el Eje Cafetero colombiano',
+      subtitle: 'Infraestructura Residencial',
     },
     {
       image: '/images/gallery-2.jpg',
