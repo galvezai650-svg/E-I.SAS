@@ -1883,13 +1883,35 @@ export const projects: Project[] = [
     services: ['Gaviones', 'Drenaje', 'Hidrosembrazado', 'Barreras vivas'],
     highlights: ['Alcaldía de Norcasia', 'Caldas', 'Estabilización rural', 'Control de erosión'],
   },
+  {
+    id: 'piscina-social-condominio-el-libano',
+    title: 'Construcción de Piscina Social - Condominio El Líbano',
+    category: 'Otras Obras',
+    categorySlug: 'otras-obras',
+    location: 'Palestina, Caldas',
+    description: 'Proyecto de construcción de piscina social en el Condominio El Líbano, ubicado en Palestina, Caldas, ejecutado entre diciembre de 2022 y enero de 2023. Incluyó excavación mecánica, construcción de estructura en concreto de 4000 PSI, instalación de acero de refuerzo, sistema hidráulico de bombeo, construcción de casa de máquinas, andenes perimetrales y acabados con enchapes.',
+    fullDescription: 'Proyecto de construcción de piscina social en el Condominio El Líbano, ubicado en Palestina, Caldas, ejecutado entre diciembre de 2022 y enero de 2023. La obra incluyó excavación mecánica del terreno, construcción de la estructura de la piscina en concreto de 4000 PSI con sus respectivos muros y fondo, instalación de acero de refuerzo para garantizar la durabilidad estructural, instalación de la red hidráulica de bombeo para la recirculación y tratamiento del agua, construcción de la casa de máquinas que alberga el equipo de bombeo y filtración, construcción de andenes perimetrales para el acceso y circulación de los usuarios, e instalación de enchapes como acabado final para proporcionar una superficie estética y funcional.',
+    image: 'https://image2url.com/r2/default/images/1776958234801-1ca69661-325a-4adc-8d9e-f1c39c44516c.png',
+    gallery: [
+      'https://image2url.com/r2/default/images/1776957858296-a2a62921-2e1e-4886-8dc1-0932a02d8946.png',
+      'https://image2url.com/r2/default/images/1776957926511-c5a93da1-4b5a-4a82-ada2-a4b105dd4649.png',
+      'https://image2url.com/r2/default/images/1776957988993-c803249e-94f5-4ba4-999f-51c815094e7d.png',
+      'https://image2url.com/r2/default/images/1776958170066-7257bd0e-4416-45c7-b0b8-1125759f4058.png',
+      'https://image2url.com/r2/default/images/1776958234801-1ca69661-325a-4adc-8d9e-f1c39c44516c.png',
+    ],
+    client: 'Condominio El Líbano',
+    year: '2022 - 2023',
+    type: 'Infraestructura – Recreación',
+    services: ['Excavación mecánica', 'Estructura en concreto 4000 PSI', 'Acero de refuerzo', 'Sistema hidráulico de bombeo', 'Casa de máquinas', 'Andenes perimetrales', 'Enchapes'],
+    highlights: ['Condominio El Líbano', 'Palestina', 'Caldas', 'Piscina social', 'Recreación'],
+  },
 ]
 
 // ═══════════════════════════════════════════════════════════
 // PORTFOLIO SUMMARY
 // ═══════════════════════════════════════════════════════════
 export const portfolioSummary = {
-  totalProjects: 110,
+  totalProjects: 111,
   period: '2016 - 2024',
   departments: [
     { name: 'Caldas', municipalities: ['Manizales', 'Villamaría', 'Chinchiná', 'Palestina', 'Cartama/Aranzazu'] },
