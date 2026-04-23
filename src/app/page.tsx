@@ -350,7 +350,7 @@ function ServicesPreview() {
           { category: 'disenos', label: '2. Servicios de Diseño y Estudios' },
           { category: 'adicionales', label: '3. Servicios Complementarios' },
         ].map((group) => {
-          const categoryServices = services.filter(s => s.category === group.category)
+          const categoryServices = services.filter(s => s.category === group.category && s.featured)
           if (categoryServices.length === 0) return null
           return (
             <div key={group.category}>
