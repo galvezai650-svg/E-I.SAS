@@ -138,7 +138,7 @@ export default function NosotrosPage() {
                     Nuestra Misión
                   </h2>
                   <p className="text-white/70 leading-relaxed text-lg">
-                    Convertir ideas en obras mediante soluciones de ingeniería innovadoras y sostenibles, entregando proyectos que superen las expectativas de nuestros comitentes y redunden en un impacto positivo para las comunidades en las que operamos.
+                    Convertir ideas en obras mediante soluciones de ingeniería innovadoras y sostenibles, entregando proyectos que superen las expectativas de nuestros clientes y posean un impacto positivo en el entorno que interactúan
                   </p>
                 </CardContent>
               </Card>
