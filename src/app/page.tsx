@@ -250,7 +250,7 @@ function AboutPreview() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="https://image2url.com/r2/default/images/1775612783028-b3f00d88-d4ad-47eb-9285-7e9937bacf1a.png"
-                alt="Edificando Ingenieros - Construyendo Sueños, Forjando Futuros"
+                alt="Edificando Ingenieros - Construyendo Sueños, Forjando Futuro"
                 width={800}
                 height={600}
                 className="aspect-[4/3] w-full h-auto object-cover"
