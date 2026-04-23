@@ -570,7 +570,7 @@ function ProcessPreview() {
             Nuestra <span className="text-brand">Metodología de Trabajo</span>
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto text-lg">
-            Una metodología clara y transparente concebida para asegurar el éxito de su proyecto.
+            Una metodología concebida para asegurar el éxito de su proyecto
           </p>
         </motion.div>
 
