@@ -340,7 +340,7 @@ function ServicesPreview() {
             Soluciones de <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-light to-brand-lighter">Ingeniería</span> Integral
           </h2>
           <p className="text-white/50 max-w-2xl mx-auto text-lg">
-            Tenemos el agrado de ofrecerle un amplio portafolio de servicios para proyectos de toda envergadura.
+            Servicios para todo tipo de proyectos
           </p>
         </motion.div>
 
