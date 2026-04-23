@@ -274,7 +274,7 @@ function AboutPreview() {
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0a1628] mb-6 leading-tight">
               Construyendo Sueños,{' '}
-              <span className="text-brand">Forjando Futuros</span>
+              <span className="text-brand">Forjando Futuro</span>
             </h2>
             <p className="text-gray-500 leading-relaxed mb-4 text-lg">
               <strong className="text-[#0a1628]">Edificando Ingenieros</strong> es una firma colombiana 
