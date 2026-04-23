@@ -263,7 +263,7 @@ function AboutPreview() {
             transition={{ ...smoothTransition, delay: 0.08 }}
           >
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-50 text-brand-dark rounded-full text-xs font-semibold mb-6">
-              SOBRE NUESTRA FIRMA
+              NUESTRA FIRMA
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0a1628] mb-6 leading-tight">
               Construyendo Sueños,{' '}
