@@ -276,15 +276,10 @@ function AboutPreview() {
               Construyendo Sueños,{' '}
               <span className="text-brand">Forjando Futuro</span>
             </h2>
-            <p className="text-gray-500 leading-relaxed mb-4 text-lg">
-              <strong className="text-[#0a1628]">Edificando Ingenieros</strong> es una firma colombiana 
-              con más de una década de trayectoria en el ámbito de la construcción y la ingeniería civil. 
-              A la fecha, hemos ejecutado más de ciento diez proyectos entre los años 2016 y 2024.
-            </p>
             <p className="text-gray-500 leading-relaxed mb-8">
-              Con presencia en Manizales, Chinchiná, Villamaría, Palestina, Aranzazu y Pereira, 
-              desarrollamos nuestra labor tanto con el sector público (entidades municipales, Aquamaná E.S.P.) como con el sector privado,
-              aplicando las más rigurosas prácticas para asegurar resultados de excelencia.
+              A la fecha y desde nuestra creación en el año 2016, contamos con más de 110 grandes proyectos ejecutados 
+              en diferentes municipios como Villamaría, Palestina y Aránzazu, además de ciudades capitales como Manizales y Pereira. 
+              Es de resaltar nuestra continúas prácticas en búsqueda de resultados de excelencia.
             </p>
 
             {/* Feature pills */}
