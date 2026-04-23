@@ -865,7 +865,7 @@ function GalleryCarousel() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-light to-brand-lighter">Proyectos</span>
           </h2>
           <p className="text-white/50 max-w-2xl mx-auto text-lg">
-            Registro fotográfico de nuestras obra
+            Registro fotográfico de nuestras obras
           </p>
         </motion.div>
 
