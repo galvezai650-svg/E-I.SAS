@@ -171,13 +171,6 @@ function HeroSection() {
               Consulte Nuestros Proyectos
               <ArrowRight className="w-4 h-4" />
             </Link>
-            <Link
-              href="/contacto"
-              className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/20 hover:border-brand/50 text-white px-8 py-4 rounded-full font-semibold text-sm transition-all duration-300 backdrop-blur-sm"
-            >
-              <Phone className="w-4 h-4" />
-              Solicitar Cotización
-            </Link>
           </motion.div>
         </div>
       </div>
