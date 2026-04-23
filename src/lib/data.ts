@@ -1950,7 +1950,7 @@ export const services: Service[] = [
     id: 'casas-urbanas-rurales',
     icon: 'Home',
     title: 'Casas Urbanas y Rurales',
-    description: 'Construcción de viviendas de altos estándares de calidad en zonas urbanas y rurales, diseñadas conforme a los requerimientos del comitente.',
+    description: 'Construcción de viviendas con altos estándares de calidad en zonas urbanas y rurales, diseñadas conforme a los requerimientos del cliente.',
     fullDescription: 'Diseñamos y construimos viviendas urbanas y rurales bajo los más rigurosos estándares de calidad. Cada proyecto se desarrolla de forma personalizada para adecuarse a las condiciones del terreno, el clima y las especificaciones del propietario, garantizando una edificación funcional, estética y perdurable.',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
     features: ['Diseño personalizado', 'Construcción en obra', 'Acabados de primera calidad', 'Llave en mano'],
