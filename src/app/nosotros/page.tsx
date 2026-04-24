@@ -159,7 +159,7 @@ export default function NosotrosPage() {
                     Nuestra Visión
                   </h2>
                   <p className="text-white/70 leading-relaxed text-lg">
-                    Constituirse en la empresa de ingeniería y construcción de referencia en Colombia, reconocida a nivel nacional e internacional por su excelencia operativa, su innovación tecnológica y su compromiso irrestricto con el desarrollo sostenible del sector constructor.
+                    Para el año 2028 buscamos constituirnos en una empresa de ingeniería y construcción referente en Colombia, reconocida por su excelencia operativa, su innovación tecnológica y su compromiso con el desarrollo sostenible del sector constructor.
                   </p>
                 </CardContent>
               </Card>
