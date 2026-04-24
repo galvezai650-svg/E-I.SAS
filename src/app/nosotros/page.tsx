@@ -255,9 +255,7 @@ export default function NosotrosPage() {
             <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
               Sector <span className="text-brand-light">Público</span>
             </h2>
-            <p className="text-white/70 max-w-2xl mx-auto text-lg">
-              Más de <strong className="text-brand-light">ciento diez proyectos</strong> ejecutados en obras públicas, respaldados por la confianza de entidades institucionales de todo el país.
-            </p>
+
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-8">
