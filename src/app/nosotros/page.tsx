@@ -218,7 +218,7 @@ export default function NosotrosPage() {
                   A lo largo de más de una década, hemos ejecutado obras públicas de gran envergadura, mereciendo la confianza de alcaldías, gobernaciones y entidades corporativas de todo el país. Nuestro equipo, conformado por más de treinta y cinco profesionales especializados, opera en el Eje Cafetero colombiano y regiones circundantes.
                 </p>
                 <p>
-                  Nuestro enfoque en la innovación, la sostenibilidad y la plena satisfacción del comitente nos ha permitido concluir con éxito más de doscientos cincuenta proyectos, desde viviendas campestres hasta grandes infraestructuras urbanas, ganándonos la confianza de más de ciento ochenta clientes.
+                  Nuestro enfoque en la innovación, la sostenibilidad y la plena satisfacción del cliente nos ha permitido concluir con éxito más de doscientos cincuenta proyectos, desde pequeñas obras civiles hasta grandes proyectos de infraestructura.
                 </p>
               </div>
 
