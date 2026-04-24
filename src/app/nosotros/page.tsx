@@ -210,7 +210,7 @@ export default function NosotrosPage() {
               <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#0a1628] mb-6">
                 Edificando el porvenir desde <span className="text-brand">2016</span>
               </h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed">
+              <div className="space-y-4 text-gray-600 leading-relaxed text-justify">
                 <p>
                   {companyInfo.name} fue fundada en {companyInfo.founded} con el propósito de transformar el sector de la construcción en Colombia. Constituida en Chinchiná, Caldas, en el corazón del Eje Cafetero, la empresa inició sus actividades como un estudio de diseño estructural y en la actualidad se consolida como una firma integral de ingeniería y construcción.
                 </p>
