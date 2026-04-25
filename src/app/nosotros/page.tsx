@@ -70,7 +70,7 @@ const values = [
   {
     icon: <Shield className="w-8 h-8" />,
     title: 'Excelencia',
-    description: 'Nos comprometemos con los más rigurosos estándares de calidad en cada proyecto, con el propósito de exceder las expectativas de nuestros comitentes.',
+    description: 'Nos comprometemos con los más rigurosos estándares de calidad en cada proyecto, con el propósito de exceder las expectativas de nuestros clientes.',
   },
   {
     icon: <Heart className="w-8 h-8" />,
@@ -113,7 +113,7 @@ export default function NosotrosPage() {
               Quiénes <span className="text-brand-light">Somos</span>
             </h1>
             <p className="text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed">
-              {companyInfo.name} es una firma especializada en la construcción y el diseño de obras civiles, con amplia trayectoria y experiencia acreditada en los sectores público y privado. Desarrollamos nuestra labor en el Eje Cafetero colombiano, con sede en el departamento de Caldas y alcance en regiones circundantes como Boyacá, Risaralda y Valle del Cauca.
+              Somos una firma especializada en la construcción y el diseño de obras civiles, con amplia trayectoria y experiencia acreditada en los sectores público y privado. Desarrollamos nuestra labor en el Eje Cafetero colombiano, con sede en el departamento de Caldas y alcance en regiones circundantes como Boyacá, Risaralda y Valle del Cauca.
             </p>
           </motion.div>
         </div>
@@ -159,7 +159,7 @@ export default function NosotrosPage() {
                     Nuestra Visión
                   </h2>
                   <p className="text-white/70 leading-relaxed text-lg">
-                    Para el año 2028 buscamos constituirnos en una empresa de ingeniería y construcción referente en Colombia, reconocida por su excelencia operativa, su innovación tecnológica y su compromiso con el desarrollo sostenible del sector constructor.
+                    Para el año 2028 buscamos ser una firma de ingeniería y construcción referente en Colombia, reconocida por su excelencia operativa, su innovación tecnológica y su compromiso con el desarrollo sostenible del sector constructor.
                   </p>
                 </CardContent>
               </Card>
@@ -212,7 +212,7 @@ export default function NosotrosPage() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-justify">
                 <p>
-                  {companyInfo.name} fue fundada en {companyInfo.founded} con el propósito de transformar el sector de la construcción en Colombia. Constituida en Chinchiná, Caldas, en el corazón del Eje Cafetero, la empresa inició sus actividades como un estudio de diseño estructural y en la actualidad se consolida como una firma integral de ingeniería y construcción.
+                  Fuimos fundados en {companyInfo.founded} con el propósito de transformar el sector de la construcción en Colombia. Constituidos en Chinchiná, Caldas, en el corazón del Eje Cafetero, iniciamos nuestras actividades como un estudio de diseño estructural y en la actualidad nos consolidamos como una firma integral de ingeniería y construcción.
                 </p>
                 <p>
                   A lo largo de más de una década, hemos ejecutado obras públicas de gran envergadura, mereciendo la confianza de alcaldías, gobernaciones y entidades corporativas de todo el país. Nuestro equipo, conformado por más de treinta y cinco profesionales especializados, opera en el Eje Cafetero colombiano y regiones circundantes.

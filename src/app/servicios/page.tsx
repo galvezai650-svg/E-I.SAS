@@ -74,7 +74,7 @@ const benefits = [
   {
     icon: <Shield className="w-8 h-8" />,
     title: 'Calidad Certificada',
-    description: 'Cada proyecto se ejecuta bajo protocolos de calidad rigurosos, certificados conforme a la normatividad vigente.',
+    description: 'Ejecutamos cada proyecto bajo protocolos de calidad rigurosos, certificados conforme a la normatividad vigente.',
   },
   {
     icon: <DollarSign className="w-8 h-8" />,
