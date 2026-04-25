@@ -2031,7 +2031,7 @@ export const services: Service[] = [
     title: 'Estudios Técnicos y Topografía',
     description: 'Estudios de suelos, estudios de susceptibilidad, levantamientos topográficos y fotografía aérea con drones.',
     fullDescription: 'Realizamos estudios de suelos que incluyen perforaciones, ensayos de laboratorio, análisis de capacidad de carga y recomendaciones de cimentación. Elaboramos estudios de susceptibilidad que evalúan el riesgo de movimientos en masa e inundaciones, requisito fundamental para la obtención de licencias de construcción. Ejecutamos levantamientos topográficos con equipos de alta precisión y ofrecemos servicios de fotografía y videografía aérea con drones para el control de obras, inspecciones y promoción inmobiliaria.',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777103901090-c39353aa-9c02-4cd4-89a4-4441dc5f04af.png',
     features: ['Estudio de suelos', 'Susceptibilidad', 'Topografía', 'Fotografía aérea con dron'],
     benefits: ['Alta precisión', 'Cumplimiento normativo', 'Reducción de riesgos', 'Información técnica completa'],
     projects: 100,
