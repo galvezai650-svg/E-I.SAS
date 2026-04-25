@@ -375,7 +375,7 @@ function ServicesPreview() {
                           </div>
                         </div>
                         <div className="absolute top-4 right-4 px-3 py-1 bg-white/10 backdrop-blur-sm text-white text-xs rounded-full font-medium">
-                          {service.projects} obras ejecutadas
+                          {service.comingSoon ? 'Próximamente' : `${service.projects} obras ejecutadas`}
                         </div>
                       </div>
 

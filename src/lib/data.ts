@@ -27,6 +27,7 @@ export interface Service {
   projects: number
   category: 'construccion' | 'disenos' | 'adicionales'
   featured?: boolean
+  comingSoon?: boolean
 }
 
 export interface BlogPost {
@@ -2043,14 +2044,15 @@ export const services: Service[] = [
     id: 'venta-propiedades',
     icon: 'Home',
     title: 'Venta de Propiedades',
-    description: 'Venta de propiedades residenciales y comerciales en el Eje Cafetero colombiano.',
+    description: 'Próximamente — Venta de propiedades residenciales y comerciales en el Eje Cafetero colombiano.',
     fullDescription: 'Disponemos de un portafolio de propiedades residenciales y comerciales ubicadas en las mejores zonas del Eje Cafetero colombiano. Brindamos asesoría integral y personalizada para la adquisición de terrenos, lotes, viviendas y proyectos en desarrollo.',
     image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop',
     features: ['Casas', 'Lotes', 'Bodegas', 'Proyectos en desarrollo'],
     benefits: ['Mejores ubicaciones', 'Asesoría legal', 'Precios competitivos', 'Eje Cafetero'],
-    projects: 10,
+    projects: 0,
     category: 'adicionales',
     featured: true,
+    comingSoon: true,
   },
 ]
 
