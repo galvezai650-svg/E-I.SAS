@@ -2005,7 +2005,7 @@ export const services: Service[] = [
     title: 'Diseño Estructural y Arquitectónico',
     description: 'Cálculo estructural, diseños arquitectónicos y visualización 3D fotorrealista para todo tipo de proyecto.',
     fullDescription: 'Realizamos diseños estructurales completos empleando software especializado de última generación, incluyendo modelos matemáticos, memorias de cálculo, planos detallados y especificaciones técnicas que dan cumplimiento a la normatividad colombiana vigente (NSR-10). Creamos diseños arquitectónicos que conjugan estética, funcionalidad y sostenibilidad, entregando planos completos, renders 3D fotorrealistas y recorridos virtuales que permiten visualizar el resultado final previo a la ejecución de la obra.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777103631625-28e452a5-db2d-42ca-9e02-ac92173b32ce.png',
     features: ['Memorias de cálculo', 'Planos estructurales', 'Diseños arquitectónicos', 'Renders 3D', 'NSR-10'],
     benefits: ['Seguridad estructural', 'Optimización de materiales', 'Visualización previa', 'Cumplimiento normativo'],
     projects: 105,
