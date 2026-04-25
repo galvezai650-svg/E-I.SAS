@@ -1978,7 +1978,7 @@ export const services: Service[] = [
     title: 'Infraestructura Hidrosanitaria',
     description: 'Diseñamos y construimos sistemas de acueducto, alcantarillado y redes eléctricas para proyectos urbanos y rurales.',
     fullDescription: 'Implementamos sistemas completos de acueducto y alcantarillado que garantizan el suministro de agua potable y la correcta disposición de aguas residuales. Asimismo, realizamos el diseño e instalación de redes eléctricas con estricto cumplimiento de la normatividad RETIE. Contamos con experiencia acreditada en la ejecución de contratos con empresas de servicios públicos, entre ellas Aquamaná E.S.P.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777103407181-12fcdb93-1ee5-4856-8ee2-0ffebf5dba4b.png',
     features: ['Redes de acueducto', 'Alcantarillado sanitario', 'Redes eléctricas', 'Sistemas de bombeo'],
     benefits: ['Normatividad vigente', 'Eficiencia hidráulica', 'Sostenibilidad', 'Impacto social positivo'],
     projects: 34,
