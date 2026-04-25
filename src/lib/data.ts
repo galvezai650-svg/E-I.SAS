@@ -2032,7 +2032,7 @@ export const services: Service[] = [
     title: 'Acabados y Urbanización',
     description: 'Acabados de alta calidad y urbanización integral de conjuntos campestres y residenciales.',
     fullDescription: 'Ofrecemos un servicio integral de acabados que comprende pinturas decorativas e industriales, enchapes en cerámica y porcelanato, revoques, carpintería metálica y acabados en madera. Todos nuestros materiales cumplen con las más exigentes especificaciones técnicas. Asimismo, desarrollamos proyectos de urbanización integral para conjuntos campestres y residenciales, incluyendo diseño urbanístico, construcción de vías internas, instalación de redes, zonas comunes, paisajismo y demarcación de lotes, brindando una solución llave en mano al cliente.',
-    image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777104124620-e26bb2c5-b9f5-4225-ba26-06c01cad7dfe.png',
     features: ['Pinturas y enchapes', 'Carpintería metálica', 'Diseño urbanístico', 'Redes completas', 'Zonas comunes'],
     benefits: ['Calidad superior', 'Proyecto llave en mano', 'Variedad de materiales', 'Plusvalía'],
     projects: 53,
