@@ -24,6 +24,7 @@ import {
   Camera,
   ZoomIn,
   X,
+  PlayCircle,
 } from 'lucide-react'
 
 const fadeUp = {
@@ -457,6 +458,49 @@ export default function ProjectDetailPage() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Videos */}
+      {project.videos && project.videos.length > 0 && (
+        <section className="py-16 md:py-20">
+          <div className="max-w-5xl mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, ease: [0.25, 1, 0.5, 1] }}
+            >
+              <div className="flex items-center justify-center gap-2 mb-8">
+                <PlayCircle className="w-5 h-5 text-brand" />
+                <h2 className="font-[family-name:var(--font-playfair)] text-2xl md:text-3xl font-bold text-[#0a1628]">
+                  Videos del Proyecto
+                </h2>
+              </div>
+
+              <div className={`grid gap-6 ${project.videos.length === 1 ? 'grid-cols-1 max-w-3xl mx-auto' : 'grid-cols-1 md:grid-cols-2'}`}>
+                {project.videos.map((videoUrl, i) => (
+                  <motion.div
+                    key={i}
+                    custom={i}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    variants={fadeUp}
+                    className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-lg border border-gray-100 bg-gray-900"
+                  >
+                    <iframe
+                      src={videoUrl}
+                      allow="autoplay; encrypted-media"
+                      allowFullScreen
+                      className="absolute inset-0 w-full h-full"
+                      title={`${project.title} - Video ${i + 1}`}
+                    />
+                  </motion.div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="py-24 md:py-32 bg-[#0a1628] relative overflow-hidden">

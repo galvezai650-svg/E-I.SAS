@@ -8,6 +8,7 @@ export interface Project {
   fullDescription: string
   image: string
   gallery: string[]
+  videos?: string[]
   client: string
   year: string
   type: string
@@ -181,9 +182,11 @@ export const projects: Project[] = [
     fullDescription: 'Ejecutamos el proyecto de pavimentación vial 26-04-10 en el sector de Líbano y Guaimaral. Los trabajos incluyeron la construcción de pavimento para mejorar la transitabilidad y conectividad de esta vía, beneficiando a la comunidad con una infraestructura vial segura y durable.',
     image: 'https://www.image2url.com/r2/default/images/1777105500492-3dcddb07-85bf-4566-97ca-2a26e93788cb.png',
     gallery: [
-      'https://drive.google.com/uc?export=view&id=1lVOZ63B_KfhhcbFzHh4_sTmuVhPZErfS',
-      'https://drive.google.com/uc?export=view&id=1Uhk5chsGfM_kcREFW5pGYvYARE0lsXVG',
       'https://www.image2url.com/r2/default/images/1777105500492-3dcddb07-85bf-4566-97ca-2a26e93788cb.png',
+    ],
+    videos: [
+      'https://drive.google.com/file/d/1lVOZ63B_KfhhcbFzHh4_sTmuVhPZErfS/preview',
+      'https://drive.google.com/file/d/1Uhk5chsGfM_kcREFW5pGYvYARE0lsXVG/preview',
     ],
     client: 'Municipio del Líbano',
     year: '2026',
