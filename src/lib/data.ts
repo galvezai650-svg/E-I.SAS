@@ -1965,7 +1965,7 @@ export const services: Service[] = [
     title: 'Pavimentación y Obras Viales',
     description: 'Ejecutamos pavimentos rígidos, flexibles y placas huella para vías urbanas y rurales.',
     fullDescription: 'Ejecutamos proyectos de pavimentación empleando diversas tecnologías: pavimentos flexibles (asfalto), pavimentos rígidos (concreto) y placas huella, adaptándonos a las exigencias del proyecto y a las condiciones del terreno. Contamos con experiencia acreditada en contratación con entidades municipales del Eje Cafetero y otras regiones del país.',
-    image: 'https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777102916994-a94a8a08-4321-4f1c-b6b7-58455303a4ca.png',
     features: ['Pavimento asfáltico', 'Pavimento en concreto', 'Placas huella', 'Mantenimiento vial'],
     benefits: ['Durabilidad', 'Tecnología adecuada', 'Acabados de calidad', 'Normatividad vial'],
     projects: 25,
