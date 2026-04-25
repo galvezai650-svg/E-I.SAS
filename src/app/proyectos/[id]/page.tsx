@@ -52,7 +52,9 @@ export default function ProjectDetailPage() {
   const [galleryDir, setGalleryDir] = useState(0)
   const [lightbox, setLightbox] = useState(false)
 
-  const gallery = project?.gallery && project.gallery.length > 0 ? project.gallery : placeholderGallery
+  const gallery = project?.gallery && project.gallery.length > 0
+    ? project.gallery.filter((url) => url && url.trim() !== '')
+    : placeholderGallery
 
   function galleryGoTo(idx: number) {
     const len = gallery.length
@@ -296,15 +298,17 @@ export default function ProjectDetailPage() {
                       className="absolute inset-0 cursor-zoom-in"
                       onClick={() => setLightbox(true)}
                     >
-                      <Image
-                        src={gallery[galleryIdx]}
-                        alt={`${project.title} - Imagen ${galleryIdx + 1}`}
-                        fill
-                        quality={100}
-                        className="object-contain"
-                        sizes="(max-width: 768px) 100vw, 1024px"
-                        priority={galleryIdx === 0}
-                      />
+                      {gallery[galleryIdx] && (
+                        <Image
+                          src={gallery[galleryIdx]}
+                          alt={`${project.title} - Imagen ${galleryIdx + 1}`}
+                          fill
+                          quality={75}
+                          className="object-contain"
+                          sizes="(max-width: 768px) 100vw, 1024px"
+                          priority={galleryIdx === 0}
+                        />
+                      )}
                       {/* Zoom hint */}
                       <div className="absolute inset-0 bg-black/0 hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
                         <ZoomIn className="w-8 h-8 text-white opacity-0 hover:opacity-100 transition-opacity duration-300 drop-shadow-lg" />
@@ -426,14 +430,16 @@ export default function ProjectDetailPage() {
                   transition={{ duration: 0.3, ease: [0.25, 1, 0.5, 1] }}
                   className="absolute inset-0"
                 >
-                  <Image
-                    src={gallery[galleryIdx]}
-                    alt={`${project.title} - Imagen ${galleryIdx + 1}`}
-                    fill
-                    quality={100}
-                    className="object-contain"
-                    sizes="95vw"
-                  />
+                  {gallery[galleryIdx] && (
+                    <Image
+                      src={gallery[galleryIdx]}
+                      alt={`${project.title} - Imagen ${galleryIdx + 1}`}
+                      fill
+                      quality={75}
+                      className="object-contain"
+                      sizes="95vw"
+                    />
+                  )}
                 </motion.div>
               </AnimatePresence>
 
