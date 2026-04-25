@@ -19,6 +19,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'image2url.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.image2url.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'drive.google.com',
+      },
     ],
   },
 };
