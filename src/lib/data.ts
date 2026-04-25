@@ -79,7 +79,7 @@ export const projectCategories = [
 // REAL PROJECTS (111 projects from portfolio)
 // ═══════════════════════════════════════════════════════════
 export const projects: Project[] = [
-  // ─── PROYECTOS CON GALERÍA REAL (4 proyectos) ───────────────
+  // ─── PROYECTOS CON GALERÍA REAL (5 proyectos) ───────────────
   {
     id: 'pavimento-avenida-kevin-angel',
     title: 'Pavimentos - Avenida Kevin Ángel',
@@ -170,6 +170,26 @@ export const projects: Project[] = [
     type: 'Infraestructura – Recreación',
     services: ['Excavación mecánica', 'Estructura en concreto 4000 PSI', 'Acero de refuerzo', 'Sistema hidráulico de bombeo', 'Casa de máquinas', 'Andenes perimetrales', 'Enchapes'],
     highlights: ['Condominio El Líbano', 'Palestina', 'Caldas', 'Piscina social', 'Recreación'],
+  },
+  {
+    id: 'pavimentando-via-libano-guaimaral',
+    title: '26-04-10 Líbano y Guaimaral - Pavimentando Vía',
+    category: 'Pavimentos y Vías',
+    categorySlug: 'pavimentos',
+    location: 'Líbano, Tolima',
+    description: 'Proyecto de pavimentación vial en el sector de Líbano y Guaimaral, mejorando la infraestructura y transitabilidad de la vía.',
+    fullDescription: 'Ejecutamos el proyecto de pavimentación vial 26-04-10 en el sector de Líbano y Guaimaral. Los trabajos incluyeron la construcción de pavimento para mejorar la transitabilidad y conectividad de esta vía, beneficiando a la comunidad con una infraestructura vial segura y durable.',
+    image: 'https://www.image2url.com/r2/default/images/1777105500492-3dcddb07-85bf-4566-97ca-2a26e93788cb.png',
+    gallery: [
+      'https://drive.google.com/uc?export=view&id=1lVOZ63B_KfhhcbFzHh4_sTmuVhPZErfS',
+      'https://drive.google.com/uc?export=view&id=1Uhk5chsGfM_kcREFW5pGYvYARE0lsXVG',
+      'https://www.image2url.com/r2/default/images/1777105500492-3dcddb07-85bf-4566-97ca-2a26e93788cb.png',
+    ],
+    client: 'Municipio del Líbano',
+    year: '2026',
+    type: 'Obra Pública',
+    services: ['Pavimentación', 'Infraestructura vial'],
+    highlights: ['Sector público', 'Líbano', 'Guaimaral', 'Tolima', 'Pavimentos'],
   },
 
   // ─── DEMÁS PROYECTOS DEL PORTAFOLIO ────────────────────────
