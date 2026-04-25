@@ -1953,7 +1953,7 @@ export const services: Service[] = [
     title: 'Construcción de Edificaciones',
     description: 'Construimos viviendas, bodegas, piscinas y espacios de recreación con altos estándares de calidad, diseñados conforme a los requerimientos del cliente.',
     fullDescription: 'Construimos todo tipo de edificaciones: viviendas urbanas y rurales, bodegas de almacenamiento industriales y comerciales, piscinas y jacuzzis con sistemas de filtración, y parques infantiles con materiales seguros y certificados. Desarrollamos cada proyecto de forma personalizada para adecuarse a las condiciones del terreno y las especificaciones del propietario, garantizando una edificación funcional, estética y perdurable.',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777104585365-7febcae8-6377-4f8e-8250-1bd126aba57a.png',
     features: ['Viviendas', 'Bodegas industriales', 'Piscinas y jacuzzis', 'Parques infantiles', 'Llave en mano'],
     benefits: ['Calidad garantizada', 'Diseño personalizado', 'Materiales de primera', 'Asesoría integral'],
     projects: 67,
