@@ -194,13 +194,34 @@ export const projects: Project[] = [
     services: ['Pavimentación', 'Infraestructura vial'],
     highlights: ['Sector público', 'Líbano', 'Guaimaral', 'Tolima', 'Pavimentos'],
   },
+  {
+    id: 'muro-carola-2023',
+    title: '9-2023 Muro La Carola',
+    category: 'Estabilidad de Taludes',
+    categorySlug: 'estabilidad',
+    location: 'Barrio La Carola, Manizales, Caldas',
+    description: 'Estabilización de taludes mediante la construcción de pantalla con anclajes pasivos en el barrio La Carola.',
+    fullDescription: 'Proyecto de estabilización de taludes mediante la construcción de pantalla con anclajes pasivos en el barrio La Carola, Manizales. Las actividades ejecutadas incluyeron: conformación de talud, perforaciones para anclajes y drenes, instalación de geotextil no tejido 1600, construcción de viga de cimentación para muro, inyección con mortero 1:2 para anclajes, instalación de acero de refuerzo para anclajes, pantalla y viga de cimentación, y construcción de pantalla con concreto 21Mpa o 3000PSI.',
+    image: 'https://www.image2url.com/r2/default/images/1777106592335-0898dd0e-ca34-492f-af91-5f5d874dcf0e.png',
+    gallery: [
+      'https://www.image2url.com/r2/default/images/1777106592335-0898dd0e-ca34-492f-af91-5f5d874dcf0e.png',
+      'https://www.image2url.com/r2/default/images/1777106644750-c45c671b-4c1d-41f8-8728-85c700602e96.png',
+      'https://www.image2url.com/r2/default/images/1777106724386-e1ada93b-ec8b-427b-9257-06b5a4003da8.png',
+      'https://www.image2url.com/r2/default/images/1777106798934-d078bf45-8b0e-47be-ae13-fcfed649c5ef.png',
+    ],
+    client: 'Barrio La Carola',
+    year: 'Julio 2023',
+    type: 'Estabilidad de Taludes',
+    services: ['Conformación de talud', 'Perforaciones para anclajes y drenes', 'Geotextil no tejido 1600', 'Viga de cimentación', 'Inyección con mortero 1:2', 'Acero de refuerzo', 'Pantalla en concreto 21Mpa'],
+    highlights: ['Anclajes pasivos', 'Pantalla de concreto', 'Estabilización', 'Manizales', 'La Carola'],
+  },
 ]
 
 // ═══════════════════════════════════════════════════════════
 // PORTFOLIO SUMMARY
 // ═══════════════════════════════════════════════════════════
 export const portfolioSummary = {
-  totalProjects: 5,
+  totalProjects: 6,
   period: '2016 - 2026',
   departments: [
     { name: 'Caldas', municipalities: ['Manizales', 'Villamaría', 'Chinchiná', 'Palestina', 'Aranzazu'] },
