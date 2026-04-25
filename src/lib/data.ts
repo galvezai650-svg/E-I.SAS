@@ -1992,7 +1992,7 @@ export const services: Service[] = [
     title: 'Obras de Estabilización y Estructuras',
     description: 'Muros de contención, estabilización de taludes, estructuras metálicas y mantenimiento de puentes y estructuras.',
     fullDescription: 'Ejecutamos obras especializadas de estabilización geotécnica que garantizan la seguridad de terrenos y estructuras. Incluimos muros de contención en concreto reforzado, pantallas ancladas, zanjas de drenaje, gaviones y soil nailing. Fabricamos y montamos estructuras metálicas para cubiertas, naves industriales y puentes peatonales. Asimismo, realizamos mantenimiento integral de puentes y estructuras metálicas. Contamos con experiencia acreditada en contratación con la Alcaldía de Manizales.',
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop',
+    image: 'https://www.image2url.com/r2/default/images/1777104361737-e752f2d3-4a08-4e30-b836-b0e759742c49.png',
     features: ['Muros de contención', 'Estabilización de taludes', 'Estructuras metálicas', 'Mantenimiento de puentes', 'Gaviones y soil nailing'],
     benefits: ['Seguridad estructural', 'Ingeniería geotécnica', 'Soluciones a medida', 'Normas técnicas'],
     projects: 46,
