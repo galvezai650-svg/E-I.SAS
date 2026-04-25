@@ -102,9 +102,9 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
       transition={{ ease, duration, delay: index * 0.08 }}
     >
       <Card className="bg-white border-0 shadow-lg rounded-3xl overflow-hidden h-full group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-        <div className="relative aspect-video overflow-hidden">
+        <div className="relative aspect-video overflow-hidden bg-[#0a1628]">
           <div
-            className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700"
+            className="absolute inset-0 bg-contain bg-center bg-no-repeat group-hover:scale-105 transition-transform duration-700"
             style={{ backgroundImage: `url(${service.image})` }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/80 via-[#0a1628]/30 to-transparent" />

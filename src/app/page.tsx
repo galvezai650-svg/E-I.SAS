@@ -363,9 +363,9 @@ function ServicesPreview() {
                       transition={{ duration: 0.35, delay: i * 0.05, ease: smoothEase }}
                     >
                       {/* Image */}
-                      <div className="relative h-48 overflow-hidden">
+                      <div className="relative h-48 overflow-hidden bg-[#0a1628]">
                         <div
-                          className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-transform duration-700"
+                          className="absolute inset-0 bg-contain bg-center bg-no-repeat group-hover:scale-105 transition-transform duration-700"
                           style={{ backgroundImage: `url(${service.image})` }}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/90 via-[#0a1628]/40 to-transparent" />
