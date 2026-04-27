@@ -199,6 +199,8 @@ export function Footer() {
           <div className="flex items-center gap-6 text-white/40 text-xs">
             <Link href="/privacidad" className="hover:text-brand-light transition-colors duration-300">Política de Privacidad</Link>
             <Link href="/terminos" className="hover:text-brand-light transition-colors duration-300">Términos de Uso</Link>
+            <span className="text-white/20">|</span>
+            <Link href="/oe-labs" className="hover:text-brand-light transition-colors duration-300">Desarrollado por ØE LABS</Link>
           </div>
         </div>
       </div>
