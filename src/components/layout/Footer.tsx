@@ -192,15 +192,18 @@ export function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-white/40 text-xs">
-            © {new Date().getFullYear()} Edificando Ingenieros. Todos los derechos reservados.
-          </p>
-          <div className="flex items-center gap-6 text-white/40 text-xs">
+        <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col items-center gap-4">
+          <Link href="/oe-labs" className="bg-gradient-to-r from-green-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent hover:from-purple-400 hover:via-pink-400 hover:to-orange-400 transition-all duration-500 font-semibold text-sm">
+            Desarrollado por ØE LABS
+          </Link>
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 text-white/40 text-xs">
+            <p>
+              © {new Date().getFullYear()} Edificando Ingenieros. Todos los derechos reservados.
+            </p>
+            <span className="hidden md:inline text-white/20">|</span>
             <Link href="/privacidad" className="hover:text-brand-light transition-colors duration-300">Política de Privacidad</Link>
+            <span className="hidden md:inline text-white/20">|</span>
             <Link href="/terminos" className="hover:text-brand-light transition-colors duration-300">Términos de Uso</Link>
-            <span className="text-white/20">|</span>
-            <Link href="/oe-labs" className="bg-gradient-to-r from-green-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent hover:from-purple-400 hover:via-pink-400 hover:to-orange-400 transition-all duration-500 font-semibold">Desarrollado por ØE LABS</Link>
           </div>
         </div>
       </div>
