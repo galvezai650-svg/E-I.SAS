@@ -197,8 +197,8 @@ export function Footer() {
             © {new Date().getFullYear()} Edificando Ingenieros. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-6 text-white/40 text-xs">
-            <a href="#" className="hover:text-brand-light transition-colors duration-300">Política de Privacidad</a>
-            <a href="#" className="hover:text-brand-light transition-colors duration-300">Términos de Uso</a>
+            <Link href="/privacidad" className="hover:text-brand-light transition-colors duration-300">Política de Privacidad</Link>
+            <Link href="/terminos" className="hover:text-brand-light transition-colors duration-300">Términos de Uso</Link>
           </div>
         </div>
       </div>

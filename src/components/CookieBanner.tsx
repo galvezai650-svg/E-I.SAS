@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Cookie, X } from 'lucide-react'
 
@@ -49,9 +50,9 @@ export function CookieBanner() {
               <p className="text-gray-500 text-xs leading-relaxed">
                 Utilizamos cookies propias y de terceros para mejorar su experiencia de navegación, analizar el tráfico del sitio y personalizar el contenido. Puede aceptar todas las cookies o rechazarlas. 
                 Consulte nuestra{' '}
-                <a href="#" className="text-brand-dark hover:text-brand-700 underline underline-offset-2">
+                <Link href="/privacidad" className="text-brand-dark hover:text-brand-700 underline underline-offset-2">
                   Política de Privacidad
-                </a>{' '}
+                </Link>{' '}
                 para mayor información.
               </p>
             </div>
