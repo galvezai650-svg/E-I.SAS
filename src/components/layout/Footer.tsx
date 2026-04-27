@@ -200,7 +200,7 @@ export function Footer() {
             <Link href="/privacidad" className="hover:text-brand-light transition-colors duration-300">Política de Privacidad</Link>
             <Link href="/terminos" className="hover:text-brand-light transition-colors duration-300">Términos de Uso</Link>
             <span className="text-white/20">|</span>
-            <Link href="/oe-labs" className="hover:text-brand-light transition-colors duration-300">Desarrollado por ØE LABS</Link>
+            <Link href="/oe-labs" className="bg-gradient-to-r from-green-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent hover:from-purple-400 hover:via-pink-400 hover:to-orange-400 transition-all duration-500 font-semibold">Desarrollado por ØE LABS</Link>
           </div>
         </div>
       </div>
