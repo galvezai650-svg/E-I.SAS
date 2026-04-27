@@ -60,7 +60,7 @@ export default function ProyectosPage() {
               </span>
             </h1>
             <p className="text-white/60 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-              {portfolioSummary.totalProjects}+ proyectos ejecutados entre {portfolioSummary.period}, demostrando trayectoria y experiencia continua
+              Algunos proyectos hechos en {portfolioSummary.period}
             </p>
           </motion.div>
         </div>
