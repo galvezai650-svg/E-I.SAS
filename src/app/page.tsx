@@ -74,13 +74,18 @@ function Section({ children, className = '', dark = false }: { children: React.R
 function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-[#0a1628]">
-      {/* Fixed BG with gradient overlay */}
+      {/* Video BG with gradient overlay */}
       <div className="absolute inset-0">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed scale-105"
-          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&h=1080&fit=crop)' }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628]/95 via-[#0f2340]/90 to-[#0a1628]/95" />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover scale-105"
+        >
+          <source src="/videos/hero-bg.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628]/92 via-[#0f2340]/88 to-[#0a1628]/92" />
       </div>
 
       {/* Floating gradient orbs */}
